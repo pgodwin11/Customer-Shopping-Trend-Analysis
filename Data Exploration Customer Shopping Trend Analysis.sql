@@ -51,7 +51,7 @@ WHERE `Age Category` = '18-30'
 GROUP BY `Age Category`
 ;		
 
--- 4. What is the  Number 1 prefered payment method currently ? Credit Card at $40,310
+-- 4. What is the  Number 1 prefered payment method currently ? Credit Card at $40,310.
 
 SELECT `Payment Method`,
 		sum(`Purchase Amount USD`) AS Total_Sales
@@ -71,7 +71,7 @@ GROUP BY Gender
 ;
 
 
--- 6. What season had our highest sales ? The answer was Fall with $60,018
+-- 6. What season had our highest sales ? The answer was Fall with $60,018.
 
 SELECT Season,
 	   SUM(`Purchase Amount USD`) AS Total_sales

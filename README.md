@@ -17,8 +17,8 @@ Data was collected from Kaggle.
 Creation of schema and table and import of data into MySQL.
 Data cleaning and prepartaion of the data included: adding new columns, removal of duplicates, updating columns with new values, standardisation of data fields.
 Data exploration in SQL to answer business request questions.
-MySQL database connected to Power BI, ETL.
-Built interactive dashboard in Power BI.
+MySQL database was then connected to Power BI, which I would 
+use to build an interactive dashboard.
  
 
 Conclusion

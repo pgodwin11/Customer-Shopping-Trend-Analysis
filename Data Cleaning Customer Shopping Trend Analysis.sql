@@ -19,14 +19,15 @@ WHERE `Customer ID` IN (
 ALTER TABLE customer_shopping_trends
 ADD Region Varchar(25);
 
--- double checked our join to make sure the right values would be pulled in and that that locations were matching on both tables 
+-- double checked our join to make sure the right values would be pulled in and that locations were matching on both tables 
 
 SELECT CST.Location, Region
 FROM customer_shopping_trends CST
 LEFT JOIN US_Region UR
 ON CST.Location = UR.Location;
 
--- Here is where I update the the new column based off the above join
+-- Here is where I update the new column based off the above join
+
 UPDATE customer_shopping_trends CST
 LEFT JOIN US_Region UR 
 ON CST.Location = UR.Location
